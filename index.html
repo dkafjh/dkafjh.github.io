@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="마이프로틴" >
+    <meta name="author" content="조원태">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>myprotein</title>
+</head>
+<body>
+    <header>
+        <div class="logo-search-account">
+            <div class="wrapper">
+                <div class="flex-container">
+                    <div class="logo">
+                        <h1><img src="./images/logo2.png" alt="logo"></h1>
+                    </div>
+                    <div class="search-account">
+                        <div class="search-input-box">
+                            <form action="#" method="post">
+                                <input type="search" name="search" class="search" value="검색하기">
+                                <div class="search-icon">
+                                    <img src="./images/searchicon.png" alt="search-icon">
+                                </div>
+                            </form>
+                        </div><!--search-input-box-->
+                        <div class="account-info">
+                            <ul>
+                                <li><a href="#">계정</a></li>
+                                <li><a href="#">장바구니</a></li>
+                            </ul>
+                        </div><!--account-info-->
+                    </div><!--search-account-->
+                </div><!--flex container-->
+            </div><!--wrapper-->
+        </div>
+        <nav class="mainmenu">
+            <ul class="gnb">
+                <li>
+                    <a href="#">마이프로</a>
+                    <ul class="sub-menu mypro">
+                        <li>
+                            <a href="#">단백질 보충제</a>
+                            <ul>
+                                <li><a href="#">웨이 프로틴</a></li>
+                                <li><a href="#">클리어웨이</a></li>
+                                <li><a href="#">식물성 단백질</a></li>
+                                <li><a href="#">밀크&카제인</a></li>
+                                <li><a href="#">복합 단백질</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">크레아틴</a>
+                            <ul>
+                                <li><a href="#">모노 크레아틴</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">아미노산</a>
+                            <ul>
+                                <li><a href="#">BCAA</a></li>
+                                <li><a href="#">글루타민</a></li>
+                                <li><a href="#">L-카르니틴</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">스포츠웨어</a>
+                    <ul class="sub-menu">
+                        <li>
+                            <a href="#">남성의류</a>
+                            <ul>
+                                <li><a href="#">신상품</a></li>
+                                <li><a href="#">자켓 & 조끼</a></li>
+                                <li><a href="#">후디 & 스웨트 셔츠</a></li>
+                                <li><a href="#">트레이닝 반바지</a></li>
+                                <li><a href="#">스포츠 반바지</a></li>
+                                <li><a href="#">스트링거 & 탱크탑</a></li>
+                                <li><a href="#">티셔츠 &탑</a></li>
+                                <li><a href="#">전체보기
+                                </a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">여성의류</a>
+                            <ul>
+                                <li><a href="#">신상품</a></li>
+                                <li><a href="#">자켓 & 조끼</a></li>
+                                <li><a href="#">후디 & 스웨트 셔츠</a></li>
+                                <li><a href="#">트레이닝 바지</a></li>
+                                <li><a href="#">레깅스</a></li>
+                                <li><a href="#">스포츠  반바지</a></li>
+                                <li><a href="#">스포츠 브라</a></li>
+                                <li><a href="#">베스트 & 탱크탑</a></li>
+                                <li><a href="#">티셔츠 &탑</a></li>
+                                <li><a href="#">전체보기
+                                </a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">스포츠 악세사리</a>
+                            <ul>
+                                <li><a href="#">신상품</a></li>
+                                <li><a href="#">운동 가방</a></li>
+                                <li><a href="#">모자 & 글러브</a></li>
+                                <li><a href="#">언더웨어 & 양말</a></li>
+                                <li><a href="#">웨이트 트레이닝 악세사리</a></li>
+                                <li><a href="#">웨이트 트레이닝 악세사리</a></li>
+                                <li><a href="#">마스크</a></li>
+                                <li><a href="#">전체보기</a></li>
+                            </ul>
+                        </li>
+                    </ul><!--sub-menu-->
+                </li>
+                <li>
+                    <a href="#">식품/스낵</a>
+                    <ul class="sub-menu">
+                        <li><a href="#">식품 & 스낵 모두보기</a>
+                            <ul>
+                                <li><a href="#">쿠키&브라우니</a></li>
+                                <li><a href="#">건과류</a></li>
+                                <li><a href="#">프로틴버터&스프레드</a></li>
+                                <li><a href="#">건강 감미료</a></li>
+                                <li><a href="#">프로틴 음료</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">식단별 제품 보기</a>
+                            <ul>
+                                <li><a href="#">체중관리</a></li>
+                                <li><a href="#">비건 식품 & 스낵</a></li>
+                            </ul>
+                        </li>
+                    </ul><!--sub-menu-->
+                </li>
+                <li>
+                    <a href="#">비타민</a>
+                    <ul class="sub-menu">
+                        <li><a href="#">비타민 & 미네랄</a></li>
+                        <li><a href="#">체중감량</a></li>
+                        <li><a href="#">뼈& 관절건강</a></li>
+                        <li><a href="#">스포츠 퍼포먼스</a></li>
+                        <li><a href="#">오메가 3</a></li>
+                        <li><a href="#">건강 & 웰빙</a></li>
+                    </ul><!--sub-menu-->
+                </li>
+                <li>
+                    <a href="#">식이요법</a>
+                    <ul class="sub-menu">
+                        <li><a href="#">유제품 미포함</a></li>
+                        <li><a href="#">채식주의자</a></li>
+                        <li><a href="#">비건</a></li>
+                        <li><a href="#">유기농</a></li>
+                        <li><a href="#">글루텐 미포함</a></li>
+                    </ul><!--sub-menu-->
+                </li>
+                <li><a href="#">이벤트</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="main-list">
+            <div class="wrapper">
+                <article class="slide">
+                    <h2>main-slide</h2>
+                    <ul>
+                        <li>
+                            <a href="#"><img src="./images/slide-img1.jpg" alt="slide"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./images/slide-img2.jpg" alt="slide2"></a>
+                        </li>
+                    </ul>
+                </article>
+                    <div class="main-sub">
+                        <h2>main-sub</h2>
+                        <ul>
+                            <li><a href="#"><img src="./images/protien.png" alt="protein">단백질 보충제</a></li>
+                            <li><a href="#"><img src="./images/creattine.png" alt="creatine">크레아틴</a></li>
+                            <li><a href="#"><img src="./images/vitamin.png" alt="vitamin">비타민 & 미네랄</a></li>
+                            <li><a href="#"><img src="./images/protein-bar.png" alt="bar-snack">프로틴바 & 스낵</a></li>
+                            <li><a href="#"><img src="./images/sportwear.gif.png" alt="sprot wear">스포츠 의류</a></li>
+                            <li><a href="#"><img src="./images/diet.gif.png" alt="diet">다이어트 보조 식품</a></li>
+                        </ul>
+                    </div><!--main-sub-->
+                </div><!--slide-sub-->
+            </div><!--wrapper-->
+        </section>
+
+        <section id="clearwhey">
+            <div class="info-video">
+                <div class="wrapper">
+                    <div class="flex-container">
+                            <div class="clearwhey-info">
+                                <div class="clearwhey-img">
+                                    <img src="./images/clear-whey.webp" alt="clear-whey">
+                                </div>
+                                <div class="content-box">
+                                    <h2>클리어 웨이 아이솔레이티드</h2>
+                                    <ul>
+                                        <li>
+                                            <strong>
+                                                *2019 유럽 스페셜리스트 스포츠 뉴트리션 어워드 
+                                                '최고의 스포츠 뉴트리션 제품상' 수상
+                                            </strong>
+                                            <strong>
+                                                *2022 유럽 스페셜리스트 스포츠 뉴트리션 어워드 
+                                                ‘최고의 프로틴 파우더’ 수상 
+                                            </strong>
+                                        </li>
+                                        <li>
+                                            <h3>클리어 웨이란?</h3>
+                                            <ul>
+                                                <li>
+                                                    <h4>깔끔한 맛</h4>
+                                                    <p>
+                                                        클리어 웨이 아이솔레이트는 고품질의 가수분해 분리유청 단백질을 
+                                                        사용하여 기존 제품의 우유 맛과 음용감을 제거했습니다.
+                                                        또한 상큼한 과일 맛으로 산뜻하고 깔끔한 단백질 보충을 돕습니다.
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <h4>저당, 저지방으로 건강하게</h4>
+                                                    <p>
+                                                        저지방과 저당 제품으로 운동 효과를 무색하지 않게 만들면서도 
+                                                        하루 종일 촉촉한 수분 상태를 유지할 수 있는 완벽한 제품입니다.
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div><!--content-box-->
+                            </div><!--clearwhey-info-->
+                        <video src="./images/clear-whey1.mp4" controls></video>
+                    </div><!--flex-container-->
+                </div><!--wrapper-->
+            </div><!--info-video-->
+        </section>
+
+        <section class="best-seller">
+            <div class="logo-btn-info">
+                <div class="wrapper">
+                    <div class="best-logo">
+                        <span></span>
+                        <h2>BEST SELLER</h2>
+                        <span></span>
+                    </div>
+                    <div class="flex-container">
+                        <div class="button-left">
+                            <img src="./images/button.png" alt="button">
+                        </div>
+                        <div class="button-right">
+                            <img src="./images/button.png" alt="button">
+                        </div>
+                        <div class="slide-container">
+                            <div class="best-info">
+                                <a href="#">
+                                    <div class="img-box">
+                                        <img src="./images/bestseller-cre.jpg" alt="creatine">
+                                    </div>
+                                    <strong>모노 크레아틴</strong>
+                                    <strong>가격: 29,900KRW</strong>
+                                    <button>바로 구매</button>
+                                </a>
+                            </div>
+                            <div class="best-info">
+                                <a href="#">
+                                    <div class="img-box">
+                                        <img src="./images/bestseller-iso.jpg" alt="isolate">
+                                    </div>
+                                    <strong>임펙트 웨이 아이솔레이트</strong>
+                                    <strong>가격: 39,900KRW</strong>
+                                    <button>바로 구매</button>
+                                </a>
+                            </div>                    
+                            <div class="best-info">
+                                <a href="#">
+                                    <div class="img-box">
+                                        <img src="./images/bestseller-clear.jpg" alt="clear-whey">
+                                    </div>
+                                    <strong>클리어 웨이 아이솔레이트</strong>
+                                    <strong>가격: 64,900KRW</strong>
+                                    <button>바로 구매</button>
+                                </a>
+                            </div>
+                            <div class="best-info">
+                                <a href="#">
+                                    <div class="img-box">
+                                        <img src="./images/bestseller-pro.jpg" alt="protein">
+                                    </div>
+                                    <strong>임펙트 웨이 프로틴</strong>
+                                    <strong>가격:19,900KRW</strong>
+                                    <button>바로 구매</button>
+                                </a>
+                            </div>
+                            <div class="best-info">
+                                <a href="#">
+                                    <div class="img-box">
+                                        <img src="./images/best-seller-browine.jpg" alt="clear-whey">
+                                    </div>
+                                    <strong>프로틴 브라우니</strong>
+                                    <strong>가격: 32,900KRW</strong>
+                                    <button>바로 구매</button>
+                                </a>
+                            </div>
+                            <div class="best-info">
+                                <a href="#">
+                                    <div class="img-box">
+                                        <img src="./images/best-seller-omega.jpg" alt="clear-whey">
+                                    </div>
+                                    <strong>필수 오메가-3</strong>
+                                    <strong>가격: 10,900KRW</strong>
+                                    <button>바로 구매</button>
+                                </a>
+                            </div>
+                            <div class="best-info">
+                                <a href="#">
+                                    <div class="img-box">
+                                        <img src="./images/peanut-butter.jpg" alt="peanut-butter">
+                                    </div>
+                                    <strong>내츄럴 피넛버터</strong>
+                                    <strong>가격: 24,900KRW</strong>
+                                    <button>바로 구매</button>
+                                </a>
+                            </div>
+                        </div><!--slide-container-->
+                    </div><!--flex-container-->
+                </div><!--wrapper-->
+            </div><!--btn-info-->
+        </section>
+
+        <section id="purpose">
+            <div class="male-female">
+                <div class="flex-container">
+                    <div class="male">
+                        <h2>남성</h2>
+                        <div class="purpose-male">
+                            <ul class="purpose-list">
+                                <li><a href="#">근력 향상</a></li>
+                                <li><a href="#">체중 감량</a></li>
+                                <li><a href="#">린매스업</a></li>
+                            </ul>
+                        </div>
+                    </div><!--male-->                    
+                    <div class="female">
+                        <h2>여성</h2>
+                        <div class="purpose-female">
+                            <ul class="purpose-list">
+                                <li><a href="#">근력 향상</a></li>
+                                <li><a href="#">다이어트 & 체중 감량</a></li>
+                                <li><a href="#">탄력 유지</a></li>
+                            </ul>
+                        </div>
+                    </div><!--male-->
+                </div><!-- flex-container -->
+            </div><!--male-female-->
+        </section>
+
+        <section class="event">
+            <div class="download-recommend">
+                <div class="wrapper">
+                    <div class="event-container download">
+                        <div class="flex-container">
+                            <div class="photo smartphone"><img src="./images/smartphone.gif" alt="smartphone"></div>
+                            <div class="content-box">
+                                <h2>마이프로틴 공식 앱 다운로드</h2>
+                                <p>
+                                    마이프로틴 공식 앱<br>
+                                    다운로드 & 앱 알림 ON !<br>
+                                    앱 특별혜택 받아보세요<br> 
+                                </p>
+                                <button><a href="#">앱 다운로드</a></button>
+                            </div>
+                        </div><!--flex-container-->
+                    </div>
+                    <div class="event-container recommend">
+                        <div class="flex-container">
+                            <div class="photo thumb"><img src="./images/thumb.png" alt="thumb"></div>
+                            <div class="content-box">
+                                <h2>추천인 제도 BOOST</h2>
+                                <p>
+                                    추천인 코드 입력 후 첫 구매시<br>
+                                    첫구매 <strong>무료사은품</strong> 증정<br>
+                                    추천인 <strong>15000원</strong> 적립금 지급<br>  
+                                </p>
+                                <button><a href="#">확인하기</a></button>
+                            </div><!--content-txt-->
+                        </div><!--flex-container-->
+                    </div><!--event-container-->
+                </div><!--wrapper-->
+            </div><!--download-recommend-->
+        </section>
+
+        <section class="sponser">
+                <div class="flex-container">
+                    <div class="spon-img"><a href="#"><img src="./images/spon1.png" alt="bestaward"></a></div>
+                    <div class="spon-img"><a href="#"><img src="./images/spon2.png" alt="no.1"></a></div>
+                    <div class="spon-img"><a href="#"><img src="./images/sponser-3.png" alt="spon-product"></a></div>
+                    <div class="spon-img"><a href="#"><img src="./images/spon4.png" alt="score"></a></div>
+                </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <div class="news-sns">
+            <div class="subscribe">                
+                <div class="wrapper">
+                    <div class="flex-container">
+                        <div class="news-sub">
+                            <strong>마이프로틴 뉴스레터</strong>
+                            <button><a href="#">신청하기</a></button>
+                        </div>
+                        <div class="sns">
+                            <strong>마이프로틴 팔로우하기</strong>
+                            <div class="sns-btn">
+                                <button class="instagram-btn">
+                                    <a href="#">
+                                        <span class="camera-icon"></span>
+                                        <span class="circle"></span>
+                                    </a>
+                                </button>
+                                <button class="facebook-btn">
+                                    <a href="#">
+                                        <span class="icon">f</span>
+                                    </a>
+                                </button>
+                            </div><!--sns-btn-->
+                        </div><!--sns-->
+                    </div><!--flex-container-->
+                </div><!--wrapper-->
+            </div><!--subscribe-->
+        </div><!--news-sns-->
+        <div class="footer-menu">
+            <div class="wrapper">
+                <h2>마이프로틴 회사정보</h2>
+                <nav class="info-menu">
+                    <ul>
+                        <li>
+                            <h3>마이프로틴 이용안내</h3>
+                            <ul class="user-guide">
+                                <li><a href="#">고객센터</a></li>
+                                <li><a href="#">주문 배송 추적</a></li>
+                                <li><a href="#">문의하기</a></li>
+                                <li><a href="#">자주 묻는 질문</a></li>
+                                <li><a href="#">상품 반품 정책</a></li>
+                                <li><a href="#">배송정보</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h3>마이프로틴 소개</h3>
+                            <ul>
+                                <li><a href="#">회사 소개</a></li>
+                                <li><a href="#">마이프로틴 파트너쉽</a></li>
+                                <li><a href="#">채용정보</a></li>
+                                <li><a href="#">Modern Slavery Statement</a></li>
+                                <li><a href="#">품질관리정책</a></li>
+                                <li><a href="#">공급 업체 서약</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h3>사용정책</h3>
+                            <ul>
+                                <li><a href="#">사이트 이용약관</a></li>
+                                <li><a href="#">개인정보 보호정책</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h3>이벤트정보&추천인제도</h3>
+                            <ul>
+                                <li><a href="#">할인 코드</a></li>
+                                <li><a href="#">추천인 제도</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div><!--wrapper-->
+        </div><!--footer-menu-->
+        <div class="info-lan">
+            <div class="wrapper">
+                <div class="flex-container">
+                    <div class="footer-info">
+                        <div class="photo">
+                            <img src="./images/THG.png" alt="Thg">
+                        </div>
+                        <div class="content-txt">
+                            <p>
+                                2023 Myprotein.co.kr © The Hut.com Limited, a company registered in England and Wales
+                            </p> 
+                            <address>
+                                (company number 
+                                05016010) whose registered address is Voyager House, Chicago Avenue, Manchester Airport, M90 3DQ.
+                            </address>
+                        </div><!--content-txt-->
+                    </div><!--footer-info-->
+                    <div class="lan">
+                        <div class="flex-container">
+                            <div class="lan-photo">
+                                <img src="./images/korea.webp" alt="korea">
+                            </div>
+                            <form action="#" method="post">
+                                <select name="language" id="langue" size="1">
+                                    <option value="Korean">Myprotein South Korea</option>
+                                    <option value="English">Myprotein Us</option>
+                                    <option value="Japanese">Myprotein Japan</option>
+                                </select>
+                            </form>
+                        </div>
+                    </div><!--lan-->
+                </div><!--flex-container-->
+            </div><!--wrapper-->
+        </div><!--info-lan-->
+    </footer>
+</body>
+</html>
